@@ -1,5 +1,5 @@
 import {NavLink} from 'react-router-dom';
-
+// list all dogs as links to their personal info
 const DogList = ({dogs}) =>{
     return(
         <ul>

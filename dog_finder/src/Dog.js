@@ -1,12 +1,12 @@
 import {Link, useNavigate} from 'react-router-dom';
 
-
 const Dog = ({dog}) =>{
     const nav = useNavigate()
+    // if there is no dog then redirect to /dogs
     if(!dog){
         nav('/dogs')
     }
-    console.log(dog)
+    // show all details about the dogs
     return(
         <div>
             <button><Link to="/dogs">All Dogs</Link></button>

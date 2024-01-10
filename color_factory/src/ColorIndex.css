@@ -1,0 +1,31 @@
+.ColorIndex-color {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(90, 87, 87);
+    border: 1px solid;
+    border-color: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ColorIndex {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.ColorIndex-btn {
+    display: inline;
+    margin: 20px;
+    color: rgb(90, 87, 87);
+    border-color: grey;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
